@@ -24,9 +24,9 @@ export function Header() {
   }
 
   return (
-    <header className="bg-blue-600 backdrop-blur-sm border-b border-blue-700 sticky top-0 z-50">
+    <header className="bg-[#A97C4F] backdrop-blur-sm border-b border-[#8B6540] sticky top-0 z-50">
       {/* Top Bar */}
-      <div className="bg-primary text-primary-foreground py-2">
+      <div className="bg-white text-gray-800 py-2">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-center items-center text-sm">
           <span>10+ Years Experience | Professional Painting Services</span>
         </div>
@@ -34,15 +34,15 @@ export function Header() {
 
       {/* Main Nav */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16 md:h-20">
+        <div className="flex items-center justify-between h-20 md:h-24">
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <Image 
               src="/images/logo.png" 
               alt="Claude Carpenter & Sons Painting Co." 
-              width={180} 
-              height={60}
-              className="h-12 md:h-14 w-auto"
+              width={252} 
+              height={84}
+              className="h-[67px] md:h-[78px] w-auto"
             />
           </Link>
 
@@ -85,7 +85,7 @@ export function Header() {
 
         {/* Mobile Menu */}
         {mobileMenuOpen && (
-          <div className="lg:hidden border-t border-blue-500 py-4">
+          <div className="lg:hidden border-t border-[#8B6540] py-4">
             <nav className="flex flex-col gap-4">
               {navigation.map((item) => (
                 <a
