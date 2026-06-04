@@ -4,14 +4,24 @@ export async function POST(request: Request) {
   try {
     const body = await request.json()
     
-    console.log("[v0] Received form data:", body)
+    const webhookResponse = await fetch(
+      "https://services.leadconnectorhq.com/hooks/i7CCGVZUWTeOXat1IHdu/webhook-trigger/71e1153f-88ec-4d14-9a29-91b24931d104",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(body),
+      }
+    )
     
-    // TODO: Add webhook URL here
-    // const webhookResponse = await fetch("YOUR_WEBHOOK_URL", {
-    //   method: "POST",
-    //   headers: { "Content-Type": "application/json" },
-    //   body: JSON.stringify(body),
-    // })
+    if (!webhookResponse.ok) {
+      console.error("[v0] Webhook error response:", await webhookResponse.text())
+      return NextResponse.json(
+        { success: false, error: "Webhook request failed" },
+        { status: 500 }
+      )
+    }
     
     return NextResponse.json({ success: true })
   } catch (error) {
