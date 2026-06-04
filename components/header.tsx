@@ -24,7 +24,7 @@ export function Header() {
   }
 
   return (
-    <header className="bg-[#A97C4F] backdrop-blur-sm border-b border-[#8B6540] sticky top-0 z-50">
+    <header className="bg-black backdrop-blur-sm border-b border-gray-800 sticky top-0 z-50">
       {/* Top Bar */}
       <div className="bg-white text-gray-800 py-2">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-center items-center text-sm">
@@ -42,7 +42,7 @@ export function Header() {
               alt="Claude Carpenter & Sons Painting Co." 
               width={252} 
               height={84}
-              className="h-[67px] md:h-[78px] w-auto"
+              className="h-[87px] md:h-[78px] w-auto"
             />
           </Link>
 
@@ -85,7 +85,7 @@ export function Header() {
 
         {/* Mobile Menu */}
         {mobileMenuOpen && (
-          <div className="lg:hidden border-t border-[#8B6540] py-4">
+          <div className="lg:hidden border-t border-gray-800 py-4">
             <nav className="flex flex-col gap-4">
               {navigation.map((item) => (
                 <a
