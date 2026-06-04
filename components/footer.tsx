@@ -11,10 +11,10 @@ export function Footer() {
             <Link href="/" className="flex items-center mb-4">
               <Image 
                 src="/images/logo.png" 
-                alt="Luis Painting LLC" 
+                alt="Claude Carpenter & Sons Painting Co." 
                 width={160} 
                 height={50}
-                className="h-12 w-auto brightness-0 invert"
+                className="h-12 w-auto"
               />
             </Link>
             <p className="text-background/70 mb-4 leading-relaxed">

@@ -24,7 +24,7 @@ export function Header() {
   }
 
   return (
-    <header className="bg-card/95 backdrop-blur-sm border-b border-border sticky top-0 z-50">
+    <header className="bg-blue-600 backdrop-blur-sm border-b border-blue-700 sticky top-0 z-50">
       {/* Top Bar */}
       <div className="bg-primary text-primary-foreground py-2">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-center items-center text-sm">
@@ -39,7 +39,7 @@ export function Header() {
           <Link href="/" className="flex items-center">
             <Image 
               src="/images/logo.png" 
-              alt="Luis Painting LLC" 
+              alt="Claude Carpenter & Sons Painting Co." 
               width={180} 
               height={60}
               className="h-12 md:h-14 w-auto"
@@ -53,7 +53,7 @@ export function Header() {
                 key={item.name}
                 href={item.href}
                 onClick={(e) => scrollToSection(e, item.href)}
-                className="text-muted-foreground hover:text-foreground font-medium transition-colors cursor-pointer"
+                className="text-white/90 hover:text-white font-medium transition-colors cursor-pointer"
               >
                 {item.name}
               </a>
@@ -71,7 +71,7 @@ export function Header() {
 
           {/* Mobile Menu Button */}
           <button
-            className="lg:hidden p-2"
+            className="lg:hidden p-2 text-white"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
             {mobileMenuOpen ? (
@@ -85,14 +85,14 @@ export function Header() {
 
         {/* Mobile Menu */}
         {mobileMenuOpen && (
-          <div className="lg:hidden border-t border-border py-4">
+          <div className="lg:hidden border-t border-blue-500 py-4">
             <nav className="flex flex-col gap-4">
               {navigation.map((item) => (
                 <a
                   key={item.name}
                   href={item.href}
                   onClick={(e) => scrollToSection(e, item.href)}
-                  className="text-muted-foreground hover:text-foreground font-medium py-2 cursor-pointer"
+                  className="text-white/90 hover:text-white font-medium py-2 cursor-pointer"
                 >
                   {item.name}
                 </a>

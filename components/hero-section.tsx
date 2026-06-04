@@ -30,7 +30,7 @@ export function HeroSection() {
 
             {/* Main Headline */}
             <h1 className="font-serif font-bold text-[50px] sm:text-[40px] leading-tight mb-4 text-balance">
-              Kitchen Cabinets Repainted For $2,000.<br />
+              Kitchen Cabinets Repainted For $3,500.<br />
               <span className="text-accent">Not $20,000.</span>
             </h1>
 
