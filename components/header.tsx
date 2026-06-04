@@ -42,7 +42,7 @@ export function Header() {
               alt="Claude Carpenter & Sons Painting Co." 
               width={252} 
               height={84}
-              className="h-[87px] md:h-[78px] w-auto"
+              className="h-[113px] md:h-[78px] w-auto"
             />
           </Link>
 
