@@ -8,37 +8,37 @@ import { Button } from "@/components/ui/button"
 const testimonials = [
   {
     name: "Sarah M.",
-    location: "Local Homeowner",
+    location: "San Francisco, California",
     rating: 5,
-    text: "Luis Painting transformed our entire home! They were professional, on time, and the quality of work exceeded our expectations. The crew was respectful of our space and left everything spotless. We'll definitely be using them again!",
+    text: "Terrance transformed our entire home! They were professional, on time, and the quality of work exceeded our expectations. The crew was respectful of our space and left everything spotless. We'll definitely be using them again!",
     project: "Full Interior Repaint"
   },
   {
     name: "Michael R.",
-    location: "Local Homeowner",
+    location: "San Francisco, California",
     rating: 5,
-    text: "I've had several painting companies out over the years, but these guys are the best by far. They showed up when they said they would, gave me a fair quote with no hidden fees, and the finished product looks amazing. Highly recommend!",
+    text: "I've had several painting companies out over the years, but Claude Carpenter & Sons Painting Co. is the best by far. They showed up when they said they would, gave me a fair quote with no hidden fees, and the finished product looks amazing. Highly recommend!",
     project: "Exterior Painting"
   },
   {
     name: "Jennifer L.",
-    location: "Local Homeowner",
+    location: "San Francisco, California",
     rating: 5,
-    text: "From the initial estimate to the final walkthrough, the experience was seamless. The team helped us choose the perfect colors and the attention to detail was incredible. Our cabinets look brand new!",
+    text: "From the initial estimate to the final walkthrough, the experience was seamless. Terrance helped us choose the perfect colors and the attention to detail was incredible. Our cabinets look brand new!",
     project: "Cabinet Refinishing"
   },
   {
     name: "David & Lisa K.",
-    location: "Local Homeowner",
+    location: "San Francisco, California",
     rating: 5,
-    text: "We had a tight deadline before our holiday party and Luis Painting made it happen. They worked efficiently without cutting corners. Everyone at our party complimented how great the house looked!",
+    text: "We had a tight deadline before our holiday party and Claude Carpenter & Sons Painting Co. made it happen. They worked efficiently without cutting corners. Everyone at our party complimented how great the house looked!",
     project: "Living Room & Kitchen"
   },
   {
     name: "Robert T.",
-    location: "Local Homeowner",
+    location: "San Francisco, California",
     rating: 5,
-    text: "Outstanding work on our property. The professionalism and quality were top-notch. Clear communication throughout and the finished result exceeded our expectations.",
+    text: "Outstanding work on our property. Terrance and his team were top-notch. Clear communication throughout and the finished result exceeded our expectations.",
     project: "Full Home Repaint"
   }
 ]
