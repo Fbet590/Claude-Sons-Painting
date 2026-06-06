@@ -164,8 +164,8 @@ export function MultiStepForm() {
     <div className="bg-card rounded-2xl p-6 sm:p-8 shadow-2xl">
       {/* Header */}
       <div className="text-center mb-4">
-        <h2 className="font-[family:var(--font-crimson)] font-black text-[calc(1.25rem+9px)] sm:text-[calc(1.5rem+4px)] text-card-foreground mb-3">
-          Grab Our <span className="text-accent font-[800] text-[36px]">$3,500 Repaint Package</span>
+        <h2 className="font-[family:var(--font-crimson)] font-bold text-[calc(1.25rem+9px)] sm:text-[calc(1.5rem+4px)] text-card-foreground mb-3">
+          Grab Our <span className="text-accent font-bold text-[36px]">$3,500 Repaint Package</span>
         </h2>
         <div className="w-full h-px bg-border mb-3" />
         <p className="text-black text-base sm:text-sm leading-relaxed">

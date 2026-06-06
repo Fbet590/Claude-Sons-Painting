@@ -14,7 +14,7 @@ const dmSerif = DM_Serif_Display({
   variable: '--font-serif'
 });
 const crimsonText = Crimson_Text({
-  weight: ["400", "600", "700", "800", "900"],
+  weight: ["400", "600", "700"],
   subsets: ["latin"],
   variable: '--font-crimson'
 });
