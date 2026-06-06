@@ -1,5 +1,6 @@
 import { Star, Shield, CheckCircle2 } from "lucide-react"
 import { MultiStepForm } from "@/components/multi-step-form"
+import { HandDrawnUnderline } from "@/components/hand-drawn-underline"
 
 export function HeroSection() {
   return (
@@ -33,18 +34,7 @@ export function HeroSection() {
               Kitchen Cabinets Repainted For $3,500.<br />
               <span className="text-accent" style={{ color: "#F4B842" }}>
                 Not{" "}
-                <span className="squiggly-underline">
-                  $20,000.
-                  <svg viewBox="0 0 200 12" preserveAspectRatio="none" aria-hidden="true">
-                    <path
-                      d="M2,7 Q12,2 22,7 T42,7 T62,7 T82,7 T102,7 T122,7 T142,7 T162,7 T182,7 T198,7"
-                      fill="none"
-                      stroke="#F4B842"
-                      strokeWidth="3"
-                      strokeLinecap="round"
-                    />
-                  </svg>
-                </span>
+                <HandDrawnUnderline color="#F4B842">$20,000.</HandDrawnUnderline>
               </span>
             </h1>
 
