@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { DM_Sans, DM_Serif_Display } from 'next/font/google'
+import { DM_Sans, DM_Serif_Display, Crimson_Text, Poppins } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import Script from 'next/script'
 import './globals.css'
@@ -12,6 +12,16 @@ const dmSerif = DM_Serif_Display({
   weight: "400",
   subsets: ["latin"],
   variable: '--font-serif'
+});
+const crimsonText = Crimson_Text({
+  weight: ["400", "600", "700", "800", "900"],
+  subsets: ["latin"],
+  variable: '--font-crimson'
+});
+const poppins = Poppins({
+  weight: ["400", "500", "600", "700"],
+  subsets: ["latin"],
+  variable: '--font-poppins'
 });
 
 export const metadata: Metadata = {
@@ -69,7 +79,7 @@ export default function RootLayout({
           />
         </noscript>
       </head>
-      <body className={`${dmSans.variable} ${dmSerif.variable} font-sans antialiased`}>
+      <body className={`${dmSans.variable} ${dmSerif.variable} ${crimsonText.variable} ${poppins.variable} font-sans antialiased`}>
         {children}
         <Analytics />
       </body>
