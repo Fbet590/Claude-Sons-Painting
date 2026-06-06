@@ -35,7 +35,8 @@ export function HeroSection() {
             </h1>
 
             <p className="text-lg sm:text-xl text-card/90 mb-6 max-w-xl leading-relaxed">
-              High-quality paint. Stress-free experience.
+              High-quality paint.<br />
+              Stress-free experience.
             </p>
 
             {/* Quick Benefits */}
