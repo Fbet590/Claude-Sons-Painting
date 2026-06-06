@@ -117,18 +117,16 @@ export function MultiStepForm() {
       })
       const result = await response.json()
       if (result.success) {
-        // Track Facebook Pixel Lead event
-        if (typeof window !== "undefined" && window.fbq) {
+        // Track Facebook Pixel Lead event with valid, non-empty parameters
+        if (typeof window !== "undefined" && typeof window.fbq === "function") {
           window.fbq("track", "Lead", {
-            content_name: formData.service,
+            content_name: "Kitchen Cabinet Repaint",
             content_category: "Painting Service",
-            value: formData.budget,
-            currency: "USD",
           })
         }
       }
     } catch (error) {
-      console.error("Form submission error:", error)
+      console.error("[v0] Form submission error:", error)
     }
     setIsSubmitting(false)
     setIsSubmitted(true)
