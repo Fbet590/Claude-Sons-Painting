@@ -25,13 +25,6 @@ export function Header() {
 
   return (
     <header className="bg-black backdrop-blur-sm border-b border-gray-800 sticky top-0 z-50">
-      {/* Top Bar */}
-      <div className="bg-white text-gray-800 py-2">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-center items-center text-sm">
-          <span>10+ Years Experience | Professional Painting Services</span>
-        </div>
-      </div>
-
       {/* Main Nav */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20 md:h-24">
