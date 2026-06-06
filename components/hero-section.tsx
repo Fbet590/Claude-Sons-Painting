@@ -7,7 +7,7 @@ export function HeroSection() {
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: "url('/images/hero-painting.jpg')" }}
+        style={{ backgroundImage: "url('/images/hero-kitchen.png')" }}
       >
         <div className="absolute inset-0 bg-gradient-to-r from-foreground/90 via-foreground/70 to-foreground/40" />
       </div>
