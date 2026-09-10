@@ -18,7 +18,7 @@ const badges = [
   },
   {
     icon: Clock,
-    stat: "2-5 Days",
+    stat: "2-3 Days",
     label: "Project Completion"
   }
 ]

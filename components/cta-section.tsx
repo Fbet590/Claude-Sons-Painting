@@ -9,14 +9,13 @@ export function CtaSection() {
   }
 
   return (
-    <section className="py-16 md:py-24 bg-primary">
+    <section className="pt-16 md:pt-24 pb-[49px] bg-primary">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h2 className="font-serif font-bold text-[calc(1.875rem+4px)] sm:text-[calc(2.25rem+4px)] lg:text-[calc(3rem+4px)] text-primary-foreground mb-4 text-balance">
           Ready to Give Your Home a Fresh Look?
         </h2>
         <p className="text-primary-foreground/90 text-lg mb-8 max-w-2xl mx-auto">
-          Get your free quote today. No obligation, no pressure — just honest advice 
-          and clear, upfront pricing from Luis Painting LLC.
+          Get your free quote today. No obligation, no pressure.
         </p>
 
         <Button 

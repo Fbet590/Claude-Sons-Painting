@@ -62,8 +62,7 @@ export function GallerySection() {
             Explore Our Recent Transformations
           </h2>
           <p className="text-muted-foreground text-lg leading-relaxed">
-            Imagine the possibilities for your own home. From complete interior refreshes 
-            to stunning exterior makeovers and cabinet refinishing.
+            Imagine the possibilities for your own home.
           </p>
         </div>
 
