@@ -165,11 +165,11 @@ export function MultiStepForm() {
       {/* Header */}
       <div className="text-center mb-4">
         <h2 className="font-serif font-extrabold text-[calc(1.25rem+9px)] sm:text-[calc(1.5rem+4px)] text-card-foreground mb-3">
-          Grab Our <span className="text-accent font-extrabold text-[36px]">$3,500 Repaint Package</span>
+          Grab Our <span className="text-accent font-extrabold text-[36px]">$14,500 Kitchen Facelift Package</span>
         </h2>
         <div className="w-full h-px bg-border mb-3" />
         <p className="text-black text-base sm:text-sm leading-relaxed">
-          Every kitchen is different. Some don&apos;t qualify — but most do! Fill out our 17-second form. No Commitment.
+          Every kitchen is different. Some don&apos;t qualify — but most do! Fill out our 14-second form. No Commitment.
         </p>
         <p className="text-muted-foreground text-xs mt-2">
           Step {currentStep} of {steps.length}

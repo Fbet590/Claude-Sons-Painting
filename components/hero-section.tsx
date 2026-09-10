@@ -31,15 +31,15 @@ export function HeroSection() {
 
             {/* Main Headline */}
             <h1 className="font-serif font-bold text-[50px] sm:text-[40px] leading-tight mb-4 text-balance">
-              Kitchen Cabinets Repainted For $3,500.<br />
+              Kitchen Facelift For $3,500.<br />
               <span className="text-accent" style={{ color: "#F4B842" }}>
                 Not{" "}
-                <HandDrawnUnderline color="#F4B842">$20,000.</HandDrawnUnderline>
+                <HandDrawnUnderline color="#F4B842">$70,000.</HandDrawnUnderline>
               </span>
             </h1>
 
             <p className="text-lg sm:text-xl text-card/90 mb-6 max-w-xl leading-relaxed">
-              High-quality paint.<br />
+              Done Right.<br />
               Stress-free experience.
             </p>
 
