@@ -31,7 +31,7 @@ export function HeroSection() {
 
             {/* Main Headline */}
             <h1 className="font-serif font-bold text-[50px] sm:text-[40px] leading-tight mb-4 text-balance">
-              Kitchen Facelift For $3,500.<br />
+              Kitchen Facelift For $14,500.<br />
               <span className="text-accent" style={{ color: "#F4B842" }}>
                 Not{" "}
                 <HandDrawnUnderline color="#F4B842">$70,000.</HandDrawnUnderline>
